@@ -134,30 +134,3 @@ a{
 }
 
 /*HEADER CSS END*/
-
-/*USPS CSS*/
-
-.usps{
-    background: var(--black);
-    color: var(--white);
-    padding: 16px 0;
-    position: relative;
-}
-
-.animatedUsps{
-    display: flex;
-    justify-content: space-between;
-    animation: scroll 60s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-
-/*USPS CSS END*/
